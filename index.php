@@ -7,6 +7,18 @@ namespace MyApp;
 	// Create new instance of UserController.
 	$ctrl = new UserController();
 
-	// Runs Application 
-	echo $ctrl->destroy([2]);
+	// Create.
+	//$result = $ctrl->create(["Jack", "Felldown", "jack.example.com", "jack.example.com", "jill123" ]);
+
+	// Index.
+	//$result = $ctrl->index();
+
+	// $ctrl->destroy([6]);
+
+	$result = $ctrl->index();
+
+	echo $result;
+
+
+
 ?>

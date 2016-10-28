@@ -25,3 +25,10 @@ Items to note before you begin, this should be done on a *nix / OSX machine as t
 3. Create UserController class.
 4. Create PHPUnit test class to assist in development.
 5. Comment / Update code styles.
+
+#### PHPUnit Installation
+1. SSH into the box.
+2. $ cd /vagrant
+3. sudo apt-get install phpunit
+4. Set composer as executable: $ sudo chmod +x composer.phar
+5. ./composer.phar update
