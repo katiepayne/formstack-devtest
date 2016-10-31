@@ -19,7 +19,7 @@ Items to note before you begin, this should be done on a *nix / OSX machine as t
     - password - VARCHAR ( 100 ) .. TODO - Recommend not storing as plain text, but rather store the only a salted hash of the users password ( for security considerations ).
 ---
 
-### Next Steps:
+### Steps Taken:
 1. Create MySQL connector.
 2. Create User Model class.
 3. Create UserController class.
