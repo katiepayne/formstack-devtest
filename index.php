@@ -1,24 +1,21 @@
 <?php
 namespace MyApp;
 
-	// Controller file
-	require "Controller/UserController.php";
+use MyApp\Controller;
 
-	// Create new instance of UserController.
-	$ctrl = new UserController();
+    /**
+     * Import Controller.
+     */
+	require_once "Controller/UserController.php";
 
-	// Create.
-	//$result = $ctrl->create(["Jack", "Felldown", "jack.example.com", "jack.example.com", "jill123" ]);
+    /**
+     * Instantiate Controller.
+     */
+	$ctrl = new \MyApp\Controller\UserController();
 
-	// Index.
-	//$result = $ctrl->index();
+    // Read User from the database.
+    $result = $ctrl->index();
 
-	// $ctrl->destroy([6]);
+    $items = json_decode( $result );
 
-	$result = $ctrl->index();
-
-	echo $result;
-
-
-
-?>
+    echo sizeof( $items );

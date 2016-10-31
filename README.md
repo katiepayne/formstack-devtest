@@ -16,7 +16,7 @@ Items to note before you begin, this should be done on a *nix / OSX machine as t
     - lastName - VARCHAR ( 100 )
     - email - VARCHAR ( 100 )
     - emailAddress - VARCHAR ( 100 ) .. TODO - Ensure dupe field is needed.
-    - password - VARCHAR ( 100 ) .. TODO - Reccomend not storing as plain text, but rather store the only a salted hash of the users password ( for security considerations ).
+    - password - VARCHAR ( 100 ) .. TODO - Recommend not storing as plain text, but rather store the only a salted hash of the users password ( for security considerations ).
 ---
 
 ### Next Steps:

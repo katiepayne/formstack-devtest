@@ -1,11 +1,11 @@
 <?php
-
 namespace MyApp\Model;
 
 /**
  * User model class.
  */
-class User {
+class User
+{
 
    /**
     * {Integer} Unique Identifier of the user.
